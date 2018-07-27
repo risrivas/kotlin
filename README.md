@@ -1,2 +1,4 @@
-# kotlin
-Kotlin projects and TDD exercises
+# Kotlin
+
+* Learning Kotlin
+* Kotlin in Action
