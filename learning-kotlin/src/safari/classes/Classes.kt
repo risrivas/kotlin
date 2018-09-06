@@ -19,6 +19,11 @@ class Customer(val id: Int, var name: String = "", val yearOfBirth: Int) {
             }
             field = value
         }
+
+    fun customerAsString() {
+        println("Id: $id - Name: $name")
+    }
+
 }
 
 fun main(args: Array<String>) {
@@ -29,8 +34,11 @@ fun main(args: Array<String>) {
     customer.name
     customer.socialSecurityNumber = "SN1234"
 
+    customer.customerAsString()
+
     println(customer.name)
     println(customer.age)
     println(customer.socialSecurityNumber)
+
 
 }
