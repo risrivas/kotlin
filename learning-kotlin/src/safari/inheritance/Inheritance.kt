@@ -2,7 +2,6 @@ package safari.inheritance
 
 open class Person() {
     open fun validate() {
-
     }
 }
 
