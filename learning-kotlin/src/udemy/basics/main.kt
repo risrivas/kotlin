@@ -1,4 +1,4 @@
-package basics
+package udemy.basics
 
 val PI = 3.1415
 

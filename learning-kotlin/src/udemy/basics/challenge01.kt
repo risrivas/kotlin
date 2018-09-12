@@ -1,4 +1,4 @@
-package basics
+package udemy.basics
 
 fun main(args: Array<String>) {
     println("enter your name")
