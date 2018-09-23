@@ -1,8 +1,10 @@
 package udemy.oo
 
 interface Drivable {
-    val a: Int
-    fun drive()
+     val a: Int
+    fun drive() {
+        println("Driving (interface)")
+    }
 }
 
 class Bicycle : Drivable {
