@@ -13,7 +13,7 @@ class Sedan : Vehicle(), Drivable {
         get() = 3
 
     override fun honk() {
-        println("Moop")
+        println("Honking")
     }
 
     override fun drive() {
