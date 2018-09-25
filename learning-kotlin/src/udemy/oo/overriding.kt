@@ -1,6 +1,6 @@
 package udemy.oo
 
-abstract class Vehicle {
+abstract class Vehicle(open val brand: String = "") {
     open fun drive() {
         println("Driving (abstract class)")
     }
@@ -8,7 +8,7 @@ abstract class Vehicle {
     abstract fun honk()
 }
 
-class Sedan : Vehicle(), Drivable {
+class Sedan(override var brand: String = "BRAND") : Vehicle(), Drivable {
     override val a: Int
         get() = 3
 
