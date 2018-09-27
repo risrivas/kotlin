@@ -2,7 +2,7 @@ package udemy.oo
 
 class City {
     var name: String = ""
-        get() = field
+        // get() = field
         set(value) {
             if (value.isNotBlank()) {
                 field = value
