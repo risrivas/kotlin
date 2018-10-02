@@ -2,6 +2,7 @@ package udemy.oo
 
 import java.awt.event.MouseAdapter
 import java.awt.event.MouseEvent
+import udemy.oo.House.Companion.getNormalHouse as createHouse
 
 object CountryFactory {
     val a = 4
@@ -17,4 +18,6 @@ object DefaultClickListener: MouseAdapter() {
 fun main(args: Array<String>) {
     CountryFactory.a
     CountryFactory.createCountry()
+
+    createHouse()
 }
