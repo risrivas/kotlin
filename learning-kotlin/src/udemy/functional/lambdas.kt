@@ -1,4 +1,4 @@
-package udemy.basics
+package udemy.functional
 
 fun Int.even() = this % 2 == 0
 fun Int.timesTwo() = this * 2

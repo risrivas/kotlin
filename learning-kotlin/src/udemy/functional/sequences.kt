@@ -1,4 +1,4 @@
-package udemy.basics
+package udemy.functional
 
 fun main(args: Array<String>) {
     val veryLongList = (1..999999L).toList()

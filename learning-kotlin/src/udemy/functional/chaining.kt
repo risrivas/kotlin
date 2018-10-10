@@ -1,4 +1,4 @@
-package udemy.basics
+package udemy.functional
 
 fun main(args: Array<String>) {
     val inputRows = listOf(
